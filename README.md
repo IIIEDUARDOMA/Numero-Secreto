@@ -25,6 +25,6 @@ Esse jogo é ideal para jogar com a família e os amigos. O objetivo do jogo é 
   
   Página do Jogo: https://iiieduardoma.github.io/Numero-Secreto/
   
-  <img src="img/Rodape README.png">
+  <img src="Rodape README.png">
  
 </div>
