@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family= Josefin + Sans:wght@400;700 & display=swap");
+:root {
+   --font-family: "Josefin Sans", sans-serif;
+   --bg-color: #050561;
+   --primary-color: #fbc94b;
+}
+
+body {
+   background: var(--bg-color);
+   color: var(--primary-color);
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: var(--font-family);
+   margin: 0;
+}
+
+h1 {
+   font-size: 5em;
+   font-weight: 700;
+}
+
+h2 {
+   display: flex;
+   flex-direction: column;
+   font-size: 4em;
+   font-weight: 400;
+}
+
+h2 strong {
+   font-size: 2.5em;
+   font-weight: 700;
+}
+
+h3 {
+   font-size: 2em;
+   font-weight: 700;
+   margin-top: 0.7em;
+}
+
+.mensagem {
+   font-size: 1.5em;
+   font-weight: 400;
+   margin-top: 1.5em;
+}
+
+.box {
+   display: inline-block;
+   border: 2px solid var(--primary-color);
+   border-radius: 1.5rem;
+   font-size: 5em;
+   font-weight: 700;
+   padding: 1rem;
+   margin: 1rem;
+}
+
+.btn {
+   margin-top: 1em;
+   padding: 20px;
+   background-color: var(--primary-color);
+   color: var(--bg-color);
+   font-size: 1.5em;
+   font-weight: 700;
+   font-family: var(--font-family);
+   border-radius: 10px;
+}
+
+.btn:hover {
+   background-color: aliceblue;
+}
+
+.btn:active {
+   background-color: #f5b30c;
+   border-bottom: rgba(0, 0, 0, 0.3);
+}
